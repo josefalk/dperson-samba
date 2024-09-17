@@ -2,7 +2,7 @@
 
 
 
-'''
+```
 docker run -d \
   --name samba_container \
   -p 139:139 -p 445:445 \
@@ -12,4 +12,4 @@ docker run -d \
   -p -u 'pi;pi' \
   -s 'rec;/mnt/rec;yes;no;no;pi' \
   -s 'another_share;/mnt;yes;no;no;pi'
-  '''
+```
